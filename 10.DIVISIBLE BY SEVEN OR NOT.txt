@@ -1,0 +1,28 @@
+             10.DIVISIBLE BY SEVEN OR NOT 
+
+CODE:
+
+
+#include <stdio.h>
+
+void main() {
+    int a,b;
+    printf("Enter A value:  ");
+    scanf("%d",& a);
+    if(a %7==0){
+        printf("THE ENTERED VALUE IS DIVISIBLE BY 7(SEVEN) ");
+    }
+    else{
+         printf("THE ENTERED VALUE IS  NOT DIVISIBLE BY 7(SEVEN) ");
+    }
+}
+
+OUTPUT:1
+
+Enter A value:  21
+THE ENTERED VALUE IS DIVISIBLE BY 7(SEVEN) 
+
+OUTPUT:2
+
+Enter A value:  55
+THE ENTERED VALUE IS  NOT DIVISIBLE BY 7(SEVEN) 
